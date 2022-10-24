@@ -67,12 +67,10 @@ function App() {
        <div className='textoAcercademi'><a name={'acerca'}>Acera de mi</a></div>
        <img className='fotoAcerca' src={fotoAcerca}></img>
          <div className='contenido'>
-         <p className='textoContenido'>Soy tecnico en analisis y programación de computadores 
-         egresado del centro de sistemas (System Center)
-         <br></br> de la ciudad de barraquilla, Soy una persona proactiva
-          y recursiva que le gusta aprender constantemente para
-           implementar las mejores soluciones  que contribuyan al 
-           desarrollo de software tanto de escritorio como para la web.
+         <p className='textoContenido'>Soy tecnico en analisis y programación de computadores.
+         <br></br>Soy una persona proactiva y recursiva que le gusta aprender constantemente y
+          he desarrollado varios proyectos en donde he desarrollado
+          tanto para la parte del front-end como el back-end
            <br></br>
            Algunas de las tecnologias que manejo son: 
        
@@ -86,10 +84,11 @@ function App() {
         <img className='fotoAcercaMovil' src={fotoAcerca}></img>
         <div className='contenido-movil'>
          <p className='textoContenido-movil'>Soy tecnico en analisis y programación de computadores.
-         <br></br>Soy una persona proactiva
-          y recursiva que le gusta aprender constantemente para
-           implementar las mejores soluciones  que contribuyan al 
-           desarrollo de software tanto de escritorio como para la web.
+         <br></br>Soy tecnico en analisis y programación de computadores 
+          Soy una persona proactiva y recursiva que le gusta aprender constantemente y
+          he desarrollado varios proyectos en donde he desarrollado
+          tanto para la parte del front-end como el back-end
+  
            <br></br>
            Algunas de las tecnologias que manejo son: 
        
