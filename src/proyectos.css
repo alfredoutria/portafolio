@@ -1,0 +1,458 @@
+
+
+
+
+
+.textoProyectos{
+    width: 630px;
+    float: left;
+    margin-top: 550px;
+    text-align: right;
+    border-bottom: 10px solid black;
+    font-size: 40px;
+    font-family: helvetica;
+    font: bold;
+}
+
+.contenidoProyectos
+{
+    width: 100%;
+    height: 1550px;
+    margin-top: 650px;
+    margin-left: 0%;
+    position: absolute;
+    background:rgb(19, 33, 80);
+
+}
+
+.img{
+    vertical-align: middle;
+}
+
+.div_pagina1{
+    float: left;
+}
+ .pagina1{
+    width: 700px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 30px;
+    box-shadow: 20px 20px 20px rgb(102, 111, 228);
+
+}
+
+.pagina1:hover{
+    content:  url('img/styloVisitar.jpg');
+}
+
+.imagen_texto{
+    color: white;
+    position: absolute;
+}
+
+
+/*
+.efectoPagina1{
+   
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-top: 200px solid transparent;
+    border-right: 200px solid #4ea7f0;
+    border-bottom: 200px solid #15456d;;
+    text-align: center;
+    margin-left: 330px;
+    margin-top: 20px;
+    position: absolute;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.linkPagina1{
+    width: 150px;
+    height: 50px;
+    border:  2px solid white;
+    color: white;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px black;
+    border-radius: 50%;
+    font-size: 40px;
+   
+}*/
+
+.textoPagina1{
+text-decoration: none;
+}
+
+
+.informacion1{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    float: right;
+    width: 300px;
+    height: 400px;
+    border: 5px solid white;
+    overflow: hidden;
+    margin-right: 250px;
+    margin-top: 20px;
+}
+
+.div_tecnologias1{
+    margin-left: 50px;
+}
+
+
+.div_pagina2{
+    float: right;
+}
+
+ .pagina2{
+    width: 700px;
+    height: 400px;
+    margin-top: 80px;
+    box-shadow: 20px 20px 20px rgb(102, 111, 228);
+    float: right;
+    margin-right: 100px;
+}
+
+.informacion2{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    float: left;
+    width: 300px;
+    height: 400px;
+    border: 5px solid white;
+    overflow: hidden;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+.div_tecnologias2{
+    margin-left: 50px;
+}
+
+
+
+/*
+.efectoPagina2{
+   
+    width: 0;
+    height: 0;
+    border-right: 200px solid transparent;
+    border-top: 200px solid transparent;
+    border-left: 200px solid #4ea7f0;
+    border-bottom: 200px solid #15456d;
+    text-align: center;
+    margin-left: 545px;
+    margin-top: 80px;
+    position: absolute;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.linkPagina2{
+    width: 150px;
+    height: 50px;
+    border:  2px solid white;
+    color: white;
+    font: bold;
+    box-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px black;
+    border-radius: 50%;
+    font-size: 40px;
+    margin-left: -150px;
+}*/
+
+.textoPagina2{
+    text-decoration: none;
+    }
+
+
+.pagina2:hover{
+    content:  url('img/heladeriaVisitar.jpg');
+    cursor: pointer;
+
+  }
+
+
+  .div_pagina3{
+    float: left;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+ .pagina3{
+    width: 700px;
+    height: 400px;
+    margin-top: 80px;
+    box-shadow: 20px 20px 20px rgb(102, 111, 228);
+    float: left;
+    margin-right: 100px;
+}
+
+.informacion3{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    float: right;
+    width: 300px;
+    height: 430px;
+    border: 5px solid white;
+    overflow: hidden;
+    margin-right: 200px;
+    margin-top: -400px;
+}
+
+.div_tecnologias3{
+    margin-left: 50px;
+}
+
+
+.textoPagina3{
+    text-decoration: none;
+    }
+
+
+.pagina3:hover{
+    content:  url('img/cinemasVisitar.jpg');
+    cursor: pointer;
+
+  }
+
+
+
+  .containerContacto{
+      margin-top: 2200px;
+      margin-left: 350px;
+      position: absolute;
+      text-align: center;
+  }
+
+  .contacto1{
+      font-size: 35px;
+  }
+  .contacto2{
+      font-size: 35px;
+      color: rgb(0, 16, 236);
+      font: bold;
+  }
+
+  .final{
+      margin-top: 2200px;
+      color: white;
+      background:rgb(19, 33, 80) ;
+      font-size: 30px;
+      text-align: center;
+      position: absolute;
+      margin-left: 0px;
+      width: 100%;
+      height: 200px;
+      top:1000px;
+  }
+
+@media screen and (max-width: 500px){
+
+
+.contenidoProyectos{
+    width: 100%;
+    height: auto;
+    margin-top: 650px;
+    margin-left: 0%;
+    position: absolute;
+    background:rgb(19, 33, 80);
+    overflow: hidden;
+}
+
+    
+    .textoProyectos{
+        width: 90%;
+        float: left;
+        margin-top: 550px;
+        text-align: left;
+        border-bottom: 10px solid black;
+        font-size: 40px;
+        font-family: helvetica;
+        font: bold;
+        
+    }
+
+    .div_pagina1{
+        width: 99%;
+        text-align: center;
+      
+    }
+
+    .pagina1{
+        width: 100%;
+        content: url('img/styloMovil.png');
+        margin-top: 20px;
+        margin-left: 2px;
+        box-shadow: 20px 20px 20px rgb(102, 111, 228);
+    
+    }
+
+    .pagina1:hover{
+        content: url('img/styloMovil.png');
+    }
+
+    .div_tecnologias1{
+        margin-left: 30px;
+       justify-content: center;
+      
+    }
+
+    .informacion1{
+        color: black;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 20px;
+        overflow: hidden;
+        margin-left: -10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    .div_pagina2{
+        width: 100%;
+    }
+
+    .div_tecnologias2{
+        margin-left: 100px;
+      
+    }
+   
+    .pagina2{
+        content: url('img/heladeriaMovil.png');
+        width: 100%;
+        margin-top: 80px;
+        box-shadow: 20px 20px 20px rgb(102, 111, 228);
+
+        margin-right: 0px;
+        
+   
+    }
+
+    .pagina2:hover{
+        content:  url('img/heladeriaMovil.png');
+
+    
+      }
+    
+    
+    .informacion2{
+        color: black;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 20px;
+        float: right;
+        width: 90%;
+        overflow: hidden;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    
+    .div_tecnologias2{
+        margin-left: 50px;
+        width: 100%;
+    }
+
+   
+
+   
+
+    .div_pagina3{
+        color: black;
+        background:rgb(19, 33, 80);
+        font-size: 20px;
+        float: right;
+        width: 90%;
+        overflow: hidden;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+ 
+   
+    .pagina3{
+        content: url('img/cinemas_movil.png');
+        width: 100%;
+        margin-top: 80px;
+        box-shadow: 20px 20px 20px rgb(102, 111, 228);
+
+        margin-right: 0px;
+        
+   
+    }
+
+    .pagina3:hover{
+        content:  url('img/cinemas_movil.png');
+
+    
+      }
+    
+    
+    .informacion3{
+        color: black;
+        background-color: white;
+        border-radius: 10px;
+        font-size: 20px;
+        float: right;
+        width: 90%;
+        height: 450px;
+        overflow: hidden;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    
+    .div_tecnologias3{
+        margin-left: 50px;
+        width: 100%;
+     
+    }
+
+
+
+    .containerContacto{
+        width: 100%;
+        margin-top: 3570px;
+        margin-left: 0px;
+        position: absolute;
+        text-align: center;
+        overflow: hidden;
+    }
+  
+    .contacto1{
+        font-size: 20px;
+        width: 100%;;
+    }
+    .contacto2{
+        font-size: 20px;
+        color: rgb(0, 16, 236);
+        font: bold;
+        width: 100%;
+    }
+
+
+    .final{
+        margin-top: 2800px;
+        color: white;
+        background:rgb(19, 33, 80) ;
+        font-size: 20px;
+        text-align: center;
+        position: absolute;
+        margin-left: 0px;
+        width: 100%;
+        height: auto;
+        top:1500px;
+    }
+}
