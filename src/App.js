@@ -81,10 +81,9 @@ function App() {
         </div>
         </div>
         <div className='textoAcercademiMovil'><a name={'acercaMovil'}>Acera de mi</a></div>
-        <img className='fotoAcercaMovil' src={fotoAcerca}></img>
         <div className='contenido-movil'>
          <p className='textoContenido-movil'>Soy tecnico en analisis y programación de computadores.
-         <br></br>Soy tecnico en analisis y programación de computadores 
+         <br></br>Soy tecnico en analisis y programación de computadores
           Soy una persona proactiva y recursiva que le gusta aprender constantemente y
           he desarrollado varios proyectos en donde he desarrollado
           tanto para la parte del front-end como el back-end
