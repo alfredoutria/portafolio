@@ -1,0 +1,32 @@
+.ContainerPiePagina{
+   padding: 30px;
+    background:rgb(10, 10, 39);
+    color: white;
+}
+
+.ColPiePagina{
+  text-align: center;
+  font-size: 25px;
+}
+
+#etiqueta_i_piePagina{
+    font-size: 3vw;
+}
+
+@media (max-width: 800px){
+
+    .ContainerPiePagina{
+        padding: 30px;
+         background:rgb(10, 10, 39);
+         color: white;
+     }
+     
+     .ColPiePagina{
+       text-align: center;
+       font-size: 17px;
+     }
+     
+     #etiqueta_i_piePagina{
+         font-size: 8vw;
+     }
+}

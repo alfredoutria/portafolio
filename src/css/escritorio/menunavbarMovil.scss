@@ -1,0 +1,96 @@
+.navMovil {
+    display: none;
+}
+
+.divMenu{
+    display: none;
+}
+
+@media (max-width: 800px) {
+
+    .navMovil {
+        display: block;
+        font-size: 20px;
+        width: 110%;
+        margin-top: -100px;
+        margin-right: 20px;
+        translate: 490px;
+        top: 0;
+        padding: 30px;
+        position: fixed;
+        z-index: 2;
+        background: rgb(11, 17, 105);
+        color: white;
+        border-top-left-radius: 40%;
+        border-top-right-radius: 0%;
+        border-bottom-left-radius: 500%;
+        border-bottom-right-radius: 0%;
+    }
+
+    .divMenu{
+        display: block;
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        margin-top: -10px;
+        background: rgba(3, 20, 68, 0.842);
+        z-index: 1;
+        color:white;
+    }
+
+    .imagenbotonMenu {
+        margin-top: 8px;
+        float: right;
+        width: 50px;
+    }
+    
+    .nombreMenu{
+        margin-top: 8px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .profesionMenu{
+        margin-top: -10px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .iconoCerrar {
+        float: right;
+        width: 30px;
+        margin-top: -13px;
+        margin-right: 2%;
+        text-align: center;
+        font-size: 25px;
+       
+    }
+
+    .ulMovil {
+        width: 100%;
+        margin-top: -150px;
+        margin-left: 50px;
+        overflow: hidden;
+        text-align: center;
+
+    }
+
+
+    .liMovil {
+        text-align: center;
+        width: 70%;
+        color: white;
+        font-weight: bold;
+        list-style: none;
+        margin-left: 20px;
+        padding: 5px;
+
+    }
+
+    .a_liMovil{
+        text-decoration: none;
+        color: white;
+    }
+
+
+}

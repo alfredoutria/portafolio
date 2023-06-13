@@ -1,0 +1,66 @@
+.portada{
+  margin-top: -100px;
+  width: 100%;
+  height: 450px;
+}
+
+.div_portada{
+  width: 50%;
+  text-align:center;
+  margin-top: -200px;
+  color: white;
+}
+
+.imagenPortada{
+   width: 100%; 
+   height: 450px;
+   color: rgb(10, 10, 39);
+}
+
+.portadaNombre{
+   font-size: 40px;
+}
+
+.portadaProfesion{
+  margin-top: -15px;
+  font-size: 28px;
+}
+
+@media (max-width: 800px){
+
+  .contenedorPortada{
+    display: none;
+  }
+
+  /*
+  .portada{
+    margin-top: -100px;
+    width: 100%;
+    height: 450px;
+  }
+  
+  .div_portada{
+    width: 100%;
+    text-align:center;
+    margin-top: -340px;
+    color: white;
+  }
+
+  .imagenPortada{
+    width: 100%; 
+    height: 200px;
+    color: rgb(10, 10, 39);
+    filter: brightness(0.7);
+ }
+
+  .portadaNombre{
+    font-size: 25px;
+ }
+ 
+ .portadaProfesion{
+   margin-top: -15px;
+   font-size: 20px;
+ }
+ */
+
+}
