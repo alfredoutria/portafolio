@@ -25,8 +25,8 @@ const Proyecto = () => {
                     <Modal.Title>Proyecto: NatuColombia</Modal.Title>
                 </Modal.Header>
                 <Modal.Body style={{ textAlign: 'center' }}>
-                    <Button className='botonVisitar' variant='primary' style={{ fontSize: '20px' }}><a style={{ textDecoration: 'none', color: 'white' }} href='https://github.com/alfredoutria/FrontendNatucolombia'>GitHub Front-End Natucolombia</a></Button><br></br><br></br>
-                    <Button className='botonVisitar' variant='primary' style={{ fontSize: '20px' }}><a style={{ textDecoration: 'none', color: 'white' }} href='https://github.com/alfredoutria/BackendNatucolombia'>GitHub Back-End Natucolombia</a></Button>
+                    <Button className='botonModal' variant='primary' style={{ fontSize: '20px' }}><a style={{ textDecoration: 'none', color: 'white' }} href='https://github.com/alfredoutria/FrontendNatucolombia' target='_blanck'>GitHub Front-End Natucolombia</a></Button><br></br><br></br>
+                    <Button className='botonModal' variant='primary' style={{ fontSize: '20px' }}><a style={{ textDecoration: 'none', color: 'white' }} href='https://github.com/alfredoutria/BackendNatucolombia' target='_blanck'>GitHub Back-End Natucolombia</a></Button>
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>
@@ -53,8 +53,8 @@ const Proyecto = () => {
                             <Button className='botonProyecto' variant='secondary'><i className="devicon-bootstrap-plain" id="etiqueta_i_proyecto"></i><br></br>Bootstrap</Button>
                             <Button className='botonProyecto' variant='secondary'><i className="devicon-aos-plain" id="etiqueta_i_proyecto">Aos</i><br></br>Aos</Button>
                         </Col>
-                        <Button className='botonVisitar' variant='primary' style={{ fontSize: '25px' }}><a style={{ textDecoration: 'none', color: 'white' }} href='https://heladeria-5ee03.web.app'>Vistar</a></Button>
-                        <Button className='botonGithub' variant='primary' style={{ fontSize: '25px' }}><a style={{ textDecoration: 'none', color: 'white' }} href='https://github.com/alfredoutria/heladeria'>GitHub</a></Button>
+                        <Button className='botonVisitar' variant='primary' style={{ fontSize: '25px' }}><a style={{ textDecoration: 'none', color: 'white' }} href='https://heladeria-5ee03.web.app' target='_blanck'>Vistar</a></Button>
+                        <Button className='botonGithub' variant='primary' style={{ fontSize: '25px' }}><a style={{ textDecoration: 'none', color: 'white' }} href='https://github.com/alfredoutria/heladeria' target='_blanck'>GitHub</a></Button>
                     </Col>
                 </Row>
             </Container>
@@ -78,8 +78,8 @@ const Proyecto = () => {
                             <Button className='botonProyecto' variant='secondary'><i className="devicon-aos-plain" id="etiqueta_i_proyecto">Aos</i><br></br>Aos</Button>
 
                         </Col>
-                        <Button className='botonVisitar' variant='primary' style={{ fontSize: '25px' }}><a style={{ textDecoration: 'none', color: 'white' }} href='https://starkcinemas.onrender.com'>Vistar</a></Button>
-                        <Button className='botonGithub' variant='primary' style={{ fontSize: '25px' }}><a style={{ textDecoration: 'none', color: 'white' }} href='https://github.com/alfredoutria/starkcinemas'>GitHub</a></Button>
+                        <Button className='botonVisitar' variant='primary' style={{ fontSize: '25px' }}><a style={{ textDecoration: 'none', color: 'white' }} href='https://starkcinemas.onrender.com' target='_blanck'>Vistar</a></Button>
+                        <Button className='botonGithub' variant='primary' style={{ fontSize: '25px' }}><a style={{ textDecoration: 'none', color: 'white' }} href='https://github.com/alfredoutria/starkcinemas' target='_blanck'>GitHub</a></Button>
                     </Col>
                 </Row>
             </Container>
@@ -100,7 +100,7 @@ const Proyecto = () => {
                             <Button className='botonProyecto' variant='secondary'><i className="devicon-bootstrap-plain" id="etiqueta_i_proyecto"></i><br></br>Bootstrap</Button>
                             <Button className='botonProyecto' variant='secondary'><i className="devicon-aos-plain" id="etiqueta_i_proyecto">Aos</i><br></br>Aos</Button>
                         </Col>
-                        <Button className='botonVisitar' variant='primary' style={{ fontSize: '25px' }}  ><a style={{ textDecoration: 'none', color: 'white' }} href='https://natucolombia.onrender.com'>Visitar</a></Button>
+                        <Button className='botonVisitar' variant='primary' style={{ fontSize: '25px' }}  ><a style={{ textDecoration: 'none', color: 'white' }} href='https://natucolombia.onrender.com' target='_blanck'>Visitar</a></Button>
                         <Button className='botonGithub' variant='primary' style={{ fontSize: '25px' }} onClick={handleShow}>GitHub</Button>
                     </Col>
                 </Row>
