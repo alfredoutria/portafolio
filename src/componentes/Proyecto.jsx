@@ -65,13 +65,6 @@ const Proyecto = () => {
                 </Modal.Footer>
             </Modal>
 
-          
-
-            <a name="proyectos"></a>
-            <Col className='ColTituloPrincipal' xs={12} md={12}>
-                <label className='TituloPrincipal'>Proyectos</label>
-            </Col>
-
             
             <a name="proyectos"></a>
             <Col className='ColTituloPrincipal' xs={12} md={12}>
