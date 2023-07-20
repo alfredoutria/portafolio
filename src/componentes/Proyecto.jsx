@@ -8,11 +8,6 @@ import { useState } from 'react';
 
 const Proyecto = () => {
 
-    const [show, setShow] = useState(false);
-
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
-
     const [showNatucolombia, setShowNatucolombia] = useState(false);
     const [showEdufinanza, setShowEdufinanza] = useState(false);
 
@@ -82,7 +77,8 @@ const Proyecto = () => {
                             <Button className='botonProyecto' variant='secondary'><i className="devicon-angularjs-plain" id="etiqueta_i_proyecto"></i><br></br>Angular</Button>
                             <Button className='botonProyecto' variant='secondary'><i className="devicon-python-plain" id="etiqueta_i_proyecto"></i><br></br>Python</Button>
                             <Button className='botonProyecto' variant='secondary'><i className="devicon-django-plain" id="etiqueta_i_proyecto"></i><br></br>Django</Button>
-                            <Button className='botonProyecto' variant='secondary'><i className="devicon-typescript-plain" id="etiqueta_i_proyecto"></i><br></br>Bootstrap</Button>
+                            <Button className='botonProyecto' variant='secondary'><i className="devicon-typescript-plain" id="etiqueta_i_proyecto"></i><br></br>Typescript</Button>
+                            <Button className='botonProyecto' variant='secondary'><i className="devicon-postgresql-plain" id="etiqueta_i_proyecto"></i><br></br>Postgresql</Button>
                             <Button className='botonProyecto' variant='secondary'><i className="devicon-css3-plain" id="etiqueta_i_proyecto"></i><br></br>Css3</Button>
                             <Button className='botonProyecto' variant='secondary'><i className="devicon-bootstrap-plain" id="etiqueta_i_proyecto"></i><br></br>Bootstrap</Button>
                         </Col>
