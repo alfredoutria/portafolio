@@ -31,7 +31,7 @@ const Portada = () =>{
      </div>
      <div className='div_portada'>
          <div className="portadaNombre" id='portadaNombre' data-aos="zoom-out">Alfredo Utria Garcia</div>
-          <div className='portadaProfesion' id='portadaProfesion' data-aos="fade-left">Desarrollador de Software</div>
+          <div className='portadaProfesion' id='portadaProfesion' data-aos="fade-left">Desarrollador Web</div>
       </div>
       </div>
    
