@@ -114,7 +114,7 @@ const Proyecto = () => {
                     <Col className='ColimagenProyecto order-md-1' xs={12} md={6} ><div className='div_imagenProyecto' data-aos="flip-left"><img className='imagenProyecto' src={tabletStarkCinemas} /></div></Col>
                     <Col className='ColProyectoContenido order-md-2' xs={12} md={6} data-aos="zoom-in-up">
                         <h2 className='tituloProyecto'>Stark Cinemas</h2>
-                        <p className='p_proyecto'>Sitio web destinado para dar a conocer el mejor entretenimiento de la industria del cine, y fue desarrollado para el reto 3 de la universidad del norte con MisionTic2022 del ministerio de las tics</p>
+                        <p className='p_proyecto'>Sitio web destinado para dar a conocer el mejor entretenimiento de la industria del cine, y fue desarrollado para el reto 3 de la universidad del norte con MisionTic2022 del Ministerio de Tecnologias, Información y Comunicaciones de Colombia</p>
                         <Col className='ColTecnologiasUtilizadas' >Tecnologias Utilizadas:</Col>
                         <Col className="ColIconos" xs={12} md={12}>
                             <Button className='botonProyecto' variant='secondary'><i className="devicon-flask-plain" id="etiqueta_i_proyecto"></i><br></br>Flask</Button>
