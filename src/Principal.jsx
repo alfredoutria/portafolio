@@ -51,10 +51,10 @@ const Principal = () => {
          <Proyecto/>
          <Contacto/>
           <PiePagina/>
-          <DescargarCV/>
+         { /*<DescargarCV/>*/}
           <FechaArriba/>
           <IconoWhatsapp/>
-     
+    
         </>
     )
 
