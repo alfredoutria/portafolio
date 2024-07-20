@@ -93,7 +93,7 @@ const Proyecto = () => {
                     <Col className='ColimagenProyecto order-md-1' xs={12} md={6}><div className='div_imagenProyecto' data-aos="flip-left"><img className='imagenProyecto' src={tabletHeladeria} /></div></Col>
                     <Col xs={12} md={6} className='ColContenidoProyecto' data-aos="zoom-in-up">
                         <h2 className='tituloProyecto'>Heladeria Villas del Caribe</h2>
-                        <p className='p_proyecto'>Sitio web destinado a la venta de helados en donde el cliente puede solicitar susu pedidos atraves de Whatsapp</p>
+                        <p className='p_proyecto'>Sitio web destinado a la venta de helados en donde el cliente puede solicitar su pedidos através de WhatsApp</p>
                         <Col className='ColTecnologiasUtilizadas' >Tecnologias Utilizadas:</Col>
                         <Col className="ColIconos" xs={15} md={12}>
                             <Button className='botonProyecto' variant='secondary'><i className="devicon-react-plain" id="etiqueta_i_proyecto"></i><br></br>React</Button>
@@ -114,7 +114,7 @@ const Proyecto = () => {
                     <Col className='ColimagenProyecto order-md-1' xs={12} md={6} ><div className='div_imagenProyecto' data-aos="flip-left"><img className='imagenProyecto' src={tabletStarkCinemas} /></div></Col>
                     <Col className='ColProyectoContenido order-md-2' xs={12} md={6} data-aos="zoom-in-up">
                         <h2 className='tituloProyecto'>Stark Cinemas</h2>
-                        <p className='p_proyecto'>Sitio web destinado al dar a conocer el mejor entretenimiento de la industria del cine, y fué desarrollado para el reto 3 de la universidad del norte con MisionTic2022 del minsiterio de las Tics</p>
+                        <p className='p_proyecto'>Sitio web destinado para dar a conocer el mejor entretenimiento de la industria del cine, y fue desarrollado para el reto 3 de la universidad del norte con MisionTic2022 del ministerio de las tics</p>
                         <Col className='ColTecnologiasUtilizadas' >Tecnologias Utilizadas:</Col>
                         <Col className="ColIconos" xs={12} md={12}>
                             <Button className='botonProyecto' variant='secondary'><i className="devicon-flask-plain" id="etiqueta_i_proyecto"></i><br></br>Flask</Button>
