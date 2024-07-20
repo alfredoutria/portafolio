@@ -17,7 +17,7 @@ const SobreMiHabilidades = () => {
             <img className="imagenSobreMi" src={imagenAcercaMi} data-aos="flip-right" />
           </Col>
           <Col className="ColContenidoSobreMi" id="ScrollContenidoSobreMi" xs={12} md={8} data-aos="fade-up">
-          {/*Desarrollador web con experiencia en el desarrollo de interfaz de usuario y la lógica de la aplicación.<br></br>*/}
+          {/*Desarrollador web con experiencia en el desarrollo de interfaz de usuario y la lógica de la aplicación.*/}<br></br>
           Desarrollo proyectos con una visión integral desde el diseño hasta implementación.<br></br>
           Soy apasionado por la programación y el desarrollo web y además siempre estoy en constante aprendizaje de nuevas tecnologías 
           para brindar las mejores soluciones.
