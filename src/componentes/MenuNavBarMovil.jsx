@@ -34,7 +34,8 @@ function MenuNavBarMovil() {
     <div className='divMenu' onClick={Menu}>
       <img className='imagenbotonMenu' src={imagenMenu}/>
       <div className='nombreMenu' data-aos="fade-right" >Alfredo Utria Garcia</div>
-      <div className='profesionMenu' data-aos="fade-left">Desarrollador de Software</div>
+      <div className='profesionMenu' data-aos="fade-left">Desarrollador de Aplicaciones</div>
+      <div className='profesionMenu' data-aos="fade-left"> Soporte TI</div>
     </div>
     <nav className='navMovil'  style={estilo} >
       <div className='iconoCerrar' onClick={Menu} >X</div>
