@@ -35,7 +35,7 @@ const Proyecto = () => {
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={cerrarNatucolombia}>
-                        Close
+                        Cerrar
                     </Button>
                 </Modal.Footer>
             </Modal>
@@ -55,7 +55,7 @@ const Proyecto = () => {
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={cerrarEdufinanza}>
-                        Close
+                        Cerrar
                     </Button>
                 </Modal.Footer>
             </Modal>
