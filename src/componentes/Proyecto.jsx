@@ -68,7 +68,7 @@ const Proyecto = () => {
 
             <Container className='ContainerProyecto'>
                 <Row className='RowProyecto'>
-                    <Col className='ColimagenProyecto' xs={12} md={6}><div className='div_imagenProyecto' data-aos="flip-left"><img className='imagenProyecto' src={tabletEdufinanza} /></div></Col>
+                    <Col className='ColimagenProyecto' xs={12} md={6}><div className='div_imagenProyecto' ><img className='imagenProyecto' src={tabletEdufinanza} /></div></Col>
                     <Col xs={12} md={6} className='ColContenidoProyecto' data-aos="zoom-in-up">
                         <h2 className='tituloProyecto'>Edufinanza</h2>
                         <p className='p_proyecto'>Sitio web destinado para dar información valiosa sobre los conceptos de ahorro, credito e inversión</p>
@@ -90,7 +90,7 @@ const Proyecto = () => {
 
             <Container className='ContainerProyecto'>
                 <Row className='RowProyecto order-md-2'>
-                    <Col className='ColimagenProyecto order-md-1' xs={12} md={6}><div className='div_imagenProyecto' data-aos="flip-left"><img className='imagenProyecto' src={tabletHeladeria} /></div></Col>
+                    <Col className='ColimagenProyecto order-md-1' xs={12} md={6}><div className='div_imagenProyecto' ><img className='imagenProyecto' src={tabletHeladeria} /></div></Col>
                     <Col xs={12} md={6} className='ColContenidoProyecto' data-aos="zoom-in-up">
                         <h2 className='tituloProyecto'>Heladeria Villas del Caribe</h2>
                         <p className='p_proyecto'>Sitio web destinado a la venta de helados en donde el cliente puede solicitar su pedidos através de WhatsApp</p>
@@ -111,7 +111,7 @@ const Proyecto = () => {
 
             <Container className='ContainerProyecto'>
                 <Row className='RowProyecto'>
-                    <Col className='ColimagenProyecto order-md-1' xs={12} md={6} ><div className='div_imagenProyecto' data-aos="flip-left"><img className='imagenProyecto' src={tabletStarkCinemas} /></div></Col>
+                    <Col className='ColimagenProyecto order-md-1' xs={12} md={6} ><div className='div_imagenProyecto'><img className='imagenProyecto' src={tabletStarkCinemas} /></div></Col>
                     <Col className='ColProyectoContenido order-md-2' xs={12} md={6} data-aos="zoom-in-up">
                         <h2 className='tituloProyecto'>Stark Cinemas</h2>
                         <p className='p_proyecto'>Sitio web destinado para dar a conocer el mejor entretenimiento de la industria del cine, y fue desarrollado para el reto 3 de la universidad del norte con MisionTic2022 del Ministerio de Tecnologias, Información y Comunicaciones de Colombia</p>
@@ -136,7 +136,7 @@ const Proyecto = () => {
 
             <Container className='ContainerProyecto'>
                 <Row className='RowProyecto'>
-                    <Col className='ColimagenProyecto order-md-2' xs={12} md={6}><div className='div_imagenProyecto' data-aos="flip-left"><img className='imagenProyecto' src={tabletNatuColombia} /></div></Col>
+                    <Col className='ColimagenProyecto order-md-2' xs={12} md={6}><div className='div_imagenProyecto'><img className='imagenProyecto' src={tabletNatuColombia} /></div></Col>
                     <Col className='ColProyectoContenido order-md-1' xs={12} md={6} data-aos="zoom-in-up">
                         <h2 className='tituloProyecto'>NatuColombia</h2>
                         <p className='p_proyecto'>Este proyecto es personal y es destinado para informar sobre los sitios turisticos y naturales más importantes de colombia</p>
