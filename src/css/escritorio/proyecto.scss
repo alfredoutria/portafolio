@@ -153,6 +153,24 @@
     }
 
 
+    .imagenProyecto:hover{
+        //transform: scale(1.2);
+        animation: none; 
+        transform: none;
+     }
+     
+     @keyframes rotateAnimation {
+         0% {
+           transform: rotate(0deg);
+         
+         }
+         100% {
+           transform: rotate(20deg);
+      
+         }
+       }
+
+
     .p_proyecto {
         font-size: 20px;
         text-align: justify;
