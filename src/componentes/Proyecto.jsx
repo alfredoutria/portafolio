@@ -93,7 +93,7 @@ const Proyecto = () => {
                     <Col className='ColimagenProyecto order-md-1' xs={12} md={6}><div className='div_imagenProyecto' data-aos="flip-left"><img className='imagenProyecto' src={tabletHeladeria} /></div></Col>
                     <Col xs={12} md={6} className='ColContenidoProyecto' data-aos="zoom-in-up">
                         <h2 className='tituloProyecto'>Heladeria Villas del Caribe</h2>
-                        <p className='p_proyecto'>Sitio web destinado a la venta de helados en donde el cliente puede solicitar su pedidos através de WhatsApp</p>
+                        <p className='p_proyecto'>Sitio web destinado a la venta de helados en donde el cliente puede solicitar sus pedidos desde la App de WhatsApp</p>
                         <Col className='ColTecnologiasUtilizadas' >Tecnologias Utilizadas:</Col>
                         <Col className="ColIconos" xs={15} md={12}>
                             <Button className='botonProyecto' variant='secondary'><i className="devicon-react-plain" id="etiqueta_i_proyecto"></i><br></br>React</Button>
